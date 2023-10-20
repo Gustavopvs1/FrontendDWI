@@ -7,9 +7,6 @@ export default function App(){
   return (
     <>
     <h1>Hola mundo</h1>
-    <Alumno titulo="Mi componente alumno"
-    detalle={mensaje}
-    ></Alumno>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout/>}>
